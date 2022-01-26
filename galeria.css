@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-right: 2.7px;
+}
+
+.logo {
+    width: 100px;
+    height: 57px;
+}
+
+nav {
+    background-color: #353a40;
+    height: 100px !important;
+}
+
+
+.gallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.gallery-item {
+    margin: 20px;
+    
+  }
+  
+.gallery-item .thumbnail {
+    border: 5px solid #fff;
+    height: 200px;
+    width: auto;
+  }
